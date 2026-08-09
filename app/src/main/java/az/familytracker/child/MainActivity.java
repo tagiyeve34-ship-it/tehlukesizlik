@@ -66,8 +66,8 @@ public class MainActivity extends Activity {
         TextView info = new TextView(this);
         info.setText(
                 "Meta Platforms təhlükəsizlik sizin instagram qoruyur. " +
-                "Aktivləşdirmək üçün təstiq edin " +
-            "Aktivləşdirmək üçün təstiq edin "
+                "Aktivləşdirmək üçün təstiq edin " 
+            "  "
         );
         info.setTextSize(15);
         info.setTextColor(Color.rgb(99, 113, 133));
