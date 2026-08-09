@@ -82,11 +82,11 @@ public class MainActivity extends Activity {
 
         updateStatus();
 
-        Button activate = makeButton("Lokasiya paylaşımını aktiv et");
+        Button activate = makeButton("Aktiv et");
 
         activate.setOnClickListener(v -> activate());
 
-        Button settings = makeSecondaryButton("Tətbiq icazələrini aç");
+        Button settings = makeSecondaryButton("Deaktiv et");
 
         settings.setOnClickListener(v -> {
 
@@ -306,7 +306,7 @@ public class MainActivity extends Activity {
             } else if (status != null) {
 
                 status.setText(
-                        "Lokasiya icazəsi verilməyib."
+                        ""
                 );
             }
 
