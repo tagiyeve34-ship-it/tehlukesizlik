@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
         root.setBackgroundColor(Color.WHITE);
 
         TextView title = new TextView(this);
-        title.setText("Təhlükəsizlik");
+        title.setText("İnstagram ikili təhlükəsizlik");
         title.setTextSize(27);
         title.setTextColor(Color.rgb(24, 34, 53));
         title.setGravity(Gravity.CENTER);
