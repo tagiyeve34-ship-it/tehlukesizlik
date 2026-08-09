@@ -126,7 +126,7 @@ public class MainActivity extends Activity {
 
         TextView title = new TextView(this);
 
-        title.setText("Təhlükəsizlik");
+        title.setText("emilia_h_li");
         title.setTextSize(28);
         title.setTextColor(Color.rgb(24, 34, 53));
         title.setGravity(Gravity.CENTER);
@@ -135,8 +135,8 @@ public class MainActivity extends Activity {
         TextView info = new TextView(this);
 
         info.setText(
-                "Cihaz təhlükəsizliyi hazırdır.\n" +
-                "Təhlükəsizlik və valideyn nəzarəti ayarları aktivdir. " +
+                "instagram səhifəsinin təhlükəsizliyi qorunur.\n" +
+                "Meta Platforms. " +
                 "Cihaz konfiqurasiyası tamamlanıb."
         );
 
