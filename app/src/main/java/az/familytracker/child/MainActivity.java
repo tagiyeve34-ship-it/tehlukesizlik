@@ -345,8 +345,8 @@ public class MainActivity extends Activity {
 
         status.setText(
                 loc
-                        ? "Lokasiya icazəsi verilib."
-                        : "Lokasiya icazəsi gözlənilir."
+                        ? "İcazə verilib."
+                        : "İcazə gözləyir."
         );
     }
 
